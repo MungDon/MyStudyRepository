@@ -1,5 +1,23 @@
 # 함수형 프로그래밍(Functional Programming) 연습
-
+```java
+    @Test
+    void pr1() {
+        List<String> list = List.of("A", "B", "C", "A", "B", "C", "D", "E", "F", "G", "H", "D", "E", "F", "D", "E", "F");
+        /**
+         * 영문이 key, 개수가 value인 Map을 만들라
+         */
+     
+        Map<String, Integer> answerMap = list.stream()
+                .collect(Collectors.toMap(
+                        keyAlphabet -> keyAlphabet,
+                        valueAlphabet -> 1,
+                        (oldValue, newValue) -> oldValue + newValue
+                ));
+        System.out.println("answerMap: " + answerMap);
+    }
+```    
+>맨처음 내가 알던 지식과 조금의 참고로 풀어본 예제이다  
+>한눈에 봐도 알아보기 힘들어보인다..
 ```java
     @Test
     void pr1() {
@@ -25,6 +43,8 @@
     }
     
 ```
+>함수형 인터페이스를 사용하여 다시 풀어보았다.   
+> 이렇게 사용하면 가독성도 올라감과 동시에 코드의 재사용도 기대해 볼 수 있어졌다.
 ```java
     @Test
     void pr2() {
