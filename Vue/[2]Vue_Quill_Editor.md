@@ -16,7 +16,11 @@ const updateContent = (currentContent) => {
 ```
 > 에디터에 현재 작성한 내용은 기본 Delta 타입이고   
 > 서버단에서 content 를 String 으로 받고 있습니다.   
-> 따라서 해당 코드와 같이 HTML 타입으로 변환 해주어야 JSON Parsing 에러가 나지않습니다.
+> 따라서 해당 코드와 같이 HTML 타입으로 변환 해주어야 JSON Parsing 에러가 나지않습니다.  
+> 
+> 또한, Quill의 Delta 포맷은 사용자에게 그대로 보여줄 수 없습니다.   
+> 일반적으로 웹 페이지에서 사용자에게 내용을 보여줄 때는 HTML 형식이 필요하므로,   
+> Delta를 HTML로 변환하여 렌더링해야 합니다.
 
 
 ## 2번 예제 코드
