@@ -4,6 +4,10 @@
 > 1. **저장할 때 에디터 내용의 타입의 기본이 `Delta` 타입이라서 `HTML 형 변환`을 해주어야 `String`으로 저장 가능합니다.**   
 > 2. **수정 할 때 값이 HTML(String)인 상태에서 에디터의 ContentType을 지정해주어야 한다.**
 
+&nbsp;        
+&nbsp;
+
+     
 
 ## 1번 예제 코드
 ```javascript
@@ -22,6 +26,9 @@ const updateContent = (currentContent) => {
 > 일반적으로 웹 페이지에서 사용자에게 내용을 보여줄 때는 HTML 형식이 필요하므로,   
 > Delta를 HTML로 변환하여 렌더링해야 합니다.
 
+&nbsp;        
+&nbsp;   
+
 
 ## 2번 예제 코드
 ```vue
@@ -38,7 +45,9 @@ const updateContent = (currentContent) => {
 > 이유는 해당 에디터의 ContentType 이 기본 Delta 였기때문에   
 > 제가 불러온 값은 HTML 이기에 나타나지 않는 것 이었습니다.  
 > 따라서, **ContentType 을 지정해주어 해결하였습니다.**  
- 
+
+&nbsp;        
+&nbsp;
 
 ## 최종 전체 코드
 ```vue
