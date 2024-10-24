@@ -15,7 +15,7 @@
 ## Vuex 시작하기
 
 
-[### 1.Install VueX
+### 1.Install VueX
 ![img_1.png](img_1.png)
 
 &nbsp;   
