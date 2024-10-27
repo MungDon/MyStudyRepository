@@ -1,5 +1,6 @@
 # MVC 패턴
-
+&nbsp;   
+&nbsp;
 ## MVC 패턴이란?
 > - Model - View - Controller Pattern 의 약자로 아키텍쳐 패턴 중 하나이다.
 > - 애플리케이션의 구조를 세 가지의 역할로 구분한 패턴이다.

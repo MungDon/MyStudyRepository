@@ -66,7 +66,8 @@
 
 &nbsp;    
 
-> **2. 연결하기**
+> **2. 연결하기**   
+> 
 > ![img_4.png](img_4.png)
 > - HostName 칸에 Ec2 인스턴스의 퍼블릭 IPv4 주소를 입력 
 >   - ! Ubuntu 사용시 앞에 ubuntu@ 필수 !
