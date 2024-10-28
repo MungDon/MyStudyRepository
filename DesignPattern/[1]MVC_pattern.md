@@ -77,7 +77,7 @@
 >     - 처음부터 MVC 패턴으로 적용하기 위해서는 초기 설계 시간이 오래 걸릴 수 있다.    
 >   &nbsp;   
 >   - 간단한 애플리케이션일 경우 코드가 복잡해 질 수 있다
->     - MVC패턴은 주로 크고 복잡한 프로젝트에 적합하며, 간단한 프로젝트에는 OverKill 이 될 수있다
+>     - MVC패턴은 주로 크고 복잡한 프로젝트에 적합하며, 간단한 프로젝트에는 [OverKill](https://github.com/MungDon/MyStudyRepository/blob/master/DevGlossary/%5B1%5DOverKill.md) 이 될 수있다
 
 
 
