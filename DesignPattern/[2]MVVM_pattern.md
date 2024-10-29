@@ -28,7 +28,7 @@
 > - Model 을 View 에 표시하기 위한 처리를 하는 부분
 > - Model 로 부터의 결과를 View 에 통지하고, View 의 요청에 따라 로직을 실행
 > 
-> **※ ViewModel 의 특징은 Data Binding 과 캡슐화된 Commond 패턴을 이용하여   
+> **※ ViewModel 의 특징은 Data Binding 과 캡슐화된 [Commond 패턴](https://github.com/MungDon/MyStudyRepository/blob/master/DesignPattern/%5B3%5DCommond_pattern.md)을 이용하여   
 > &nbsp;&nbsp;&nbsp;&nbsp; 
 > View 와 Model 간 결합도를 없애고 View 와 Model 사이에서 중간 관리자 역할을 수행한다.**
 

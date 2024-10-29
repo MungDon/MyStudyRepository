@@ -178,4 +178,4 @@ const memberLogin = () => {
 > 따라서 해당 memberLogin 함수는 서버에 로그인 요청을 보내고    
 > 사용자의 데이터와 로그인 여부를 Vuex 상태 값으로 저장하게 됩니다
 > 
-> ![img_2.png](img_2.png)]()
+> ![img_2.png](img_2.png)
