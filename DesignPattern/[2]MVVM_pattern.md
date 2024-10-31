@@ -35,7 +35,7 @@
 
 &nbsp;   
 &nbsp;
-
+![img.png](img.png)
 ## MVVM 패턴 동작 방식
 > 1. View 를 통해 사용자 Action 이 들어온다.
 > 2. View 에 Action이 들어오면 Commond 패턴으로 Action 을 ViewModel 에 전달한다.
