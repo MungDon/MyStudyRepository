@@ -55,7 +55,7 @@ public class Main{
 ## 추상화
 > - 클래스들의 공통적인 요소를 뽑아내 상위 클래스를 만들어 내는 것
 > - 공통적인 속성과 기능을 정의함으로 코드의 중복을 줄이고, 클래스 간 관계를 효과적으로 설정하여 유지보수를 용이하게함
-> - 자바에서는 [추상 클래스와 인터페이스]()라는 요소를 통해 추상화를 구현 가능
+> - 자바에서는 [추상 클래스와 인터페이스](https://github.com/MungDon/MyStudyRepository/blob/master/OOP/%5B3%5DInterface_VS_AbstractClass.md)라는 요소를 통해 추상화를 구현 가능
 #### 예시 코드
 ```java
 // Car 인터페이스
