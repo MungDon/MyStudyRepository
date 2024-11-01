@@ -29,7 +29,7 @@
 > 1.`git commit` 명령어 실행
 
 ![img_14.png](img_14.png)   
-**[Vim 모드]() 진입**    
+**[Vim 모드](https://github.com/MungDon/MyStudyRepository/blob/master/Git_Inflearn/%5B6-1%5DVim.md) 진입**    
 
 &nbsp;
 
