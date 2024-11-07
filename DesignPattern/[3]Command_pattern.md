@@ -1,15 +1,15 @@
-# Commond 패턴
+# Command 패턴
  
 &nbsp;      
 &nbsp;    
 
-## Commond 퍠턴이란?
+## Command 퍠턴이란?
 > - 객체의 행위 (메서드) 를 클래스로 만들어 캡슐화하는 패턴
 
 &nbsp;
 &nbsp;   
 
-## Commond 패턴의 사용 이유
+## Command 패턴의 사용 이유
 > -  객체(A) 에서 객체(B)의 메서드를 실행하려면 객체(B)를 참조해야하여 의존성 발생함    
 >  이 때 커맨드 패턴을 사용하여 의존성 제거 가능   
 > &nbsp;  
@@ -20,7 +20,7 @@
 &nbsp;
 
 ## 코드 예시
-### Commond 패턴 사용 X
+### Command 패턴 사용 X
 
 ```java
 public class Light{
@@ -119,14 +119,14 @@ public class Client {
 
 &nbsp;   
 
-##### 이제 커맨트 패턴을 사용하여 코드를 작성해보겠다.
+##### 이제 커맨드 패턴을 사용하여 코드를 작성해보겠다.
 
 
-### Commond 패턴 사용 O
+### Command 패턴 사용 O
 
 ```java
-// commond interface 정의
-public interface Commond{
+// Command interface 정의
+public interface Command{
     public void run();
 }
 ```
@@ -139,11 +139,11 @@ public class Heater{
 }
 ```
 ```java
-// Heater Commond 구현 클래스
-public class HeaterOnCommond implements Commond{
+// Heater Command 구현 클래스
+public class HeaterOnCommand implements Command{
     private Heater heater;
     
-    public HeaterOnCommond(Heater heater){
+    public HeaterOnCommand(Heater heater){
         this.heater = heater;
     }
     
@@ -162,10 +162,10 @@ public class Light{
 }
 ```
 ```java
-public class LightOnCommond implements Commond{
+public class LightOnCommand implements Command{
     private Light light;
     
-    public LightOnCommond(Light light){
+    public LightOnCommand(Light light){
         this.light = light;
     }
     
@@ -197,14 +197,14 @@ public class Client {
         Heater heater = new Heater();
         
         Command heaterOnCommand = new HeaterOnCommand(heater);
-        Command lightOnCommnad = new LightOnCommand(light);
+        Command lightOnCommand = new LightOnCommand(light);
         
         AISpeaker aiSpeaker = new AISpeaker();
         
         aiSpeaker.setCommand(heaterOnCommand);
         aiSpeaker.talk();
         
-        aiSpeaker.setCommand(lightOnCommnad);
+        aiSpeaker.setCommand(lightOnCommand);
         aiSpeaker.talk();
     }
 }
